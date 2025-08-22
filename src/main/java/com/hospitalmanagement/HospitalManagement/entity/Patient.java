@@ -27,6 +27,7 @@ public class Patient {
     private String name;
 
     //    @ToString.Exclude
+    @Column
     private LocalDate birthDate;
 
     @Column(unique = true, nullable = false)
